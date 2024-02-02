@@ -20,3 +20,11 @@ grep 잘 쓰자
 1. 테스트 코드 작성
 
 n8n 워크플로 자동화 도구 < 일의 흐름을 자동화해주는 도구 < 다른 앱들간의 연결을 통해 워크플로 구성 가능
+
+
+빌드
+sam build
+배포
+sam deploy --config-env {배포할 환경}
+지우기
+sam delete --stack-name {배포된 람다의 stack-name}
