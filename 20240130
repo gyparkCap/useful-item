@@ -28,3 +28,4 @@ sam build
 sam deploy --config-env {배포할 환경}
 지우기
 sam delete --stack-name {배포된 람다의 stack-name}
+      Role: arn:aws:iam::570989223497:role/aws-monitor-lambda-role #TODO: 환경별로 role 받도록 변경 < 특정 유저 권한 타고 가기
