@@ -32,6 +32,9 @@ sam delete --stack-name {배포된 람다의 stack-name}
 
 @Transactional
 @SpringBootTest를 같이 쓰면 테스트 완료 후 해당 쿼리는 롤백된다(자세한 이유는 나중에 살펴보자)
+
+
+대용량 트랙픽 처리는 모두 로컬로 테워야한다 < 네트워크 타는 순간 미친듯이 병목에 걸림
 kotest는 실제 db에 데이터 넣지 않음
 
 fetch 캠페인 해서 들고 오는거 보기
