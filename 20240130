@@ -38,4 +38,3 @@ sam delete --stack-name {배포된 람다의 stack-name}
 
 kotest는 실제 db에 데이터 넣지 않음
 
-fetch 캠페인 해서 들고 오는거 보기
