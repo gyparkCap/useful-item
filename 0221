@@ -7,3 +7,17 @@ http 프롴토콜 < 분석하기
 
 
 erd, 전체 flowe는 draw.io를 통해서 그리자 < 별거 없어 보여도 결국 글과 그림에서 이해도의 차이가 확 생긴다
+
+
+sam 베포를 위한 권한
+CloudFormation: full
+CloudWatch: full
+Ec2: full
+S3: full
+Iam:path
+iam:DeleteRole
+iam:CreateRole
+iam:PutRolePolicy
+iam:AttachRolePolicy
+EventBridge:PutRule
+EventBridge:PutTargets
