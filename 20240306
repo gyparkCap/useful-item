@@ -3,3 +3,5 @@ https://jamong-icetea.tistory.com/212
 use 람다 함수(자원 다  사용하면 알아서 반환한다.)
 
 upsert라는 updtae + insert 구문 써 먹을 수 있다.
+
+입 출력 양식에 대해서 먼저 컴하자
