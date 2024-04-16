@@ -5,3 +5,6 @@ postman collection으로 여러 요청 보내기
 리플렉션(reflection) API
 
 Amazon MQ
+
+
+aws clooudFront 이용해서 aws s3에 접근하는 도메인을 만들 수 있다
