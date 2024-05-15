@@ -1,3 +1,5 @@
 카프카 vs rabbimq
 
 https://aws.amazon.com/ko/compare/the-difference-between-rabbitmq-and-kafka/
+
+rabbitmq는 사용자가 데이터를 컨슘하면 큐에서 데이터를 제거하고, 카프카는 커밋하는 방식으로 표현
