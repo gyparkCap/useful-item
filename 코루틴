@@ -12,3 +12,9 @@
 
 
 아 그럼 잠시 멈추고 쓸려고 할 때 쓰레드로 하면 비용많이 나가니 코루틴으로 멈추고 다른 쓰레드 작업 진행하는거구나
+
+
+Dispatchers.Default: CPU 바운드 작업을 위한 기본 스레드 풀입니다.
+Dispatchers.IO: I/O 바운드 작업을 처리하기 위한 스레드 풀입니다.
+Dispatchers.Main: Android 및 UI 기반 애플리케이션에서 UI 업데이트를 위한 메인(UI) 스레드입니다.
+Dispatchers.Unconfined: 현재 스레드에서 시작되고, 필요에 따라 다른 스레드로 이동하여 실행되는 디스패처입니다.
