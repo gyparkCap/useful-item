@@ -155,3 +155,9 @@ WHERE pg_stat_activity.datname = 'flowerdb'
 
 원본 소재 문제 쿠님에게 전달 
 
+
+* https://mikefarah.gitbook.io/yq/usage/convert
+https://github.com/nvbn/thefuck
+* https://stedolan.github.io/jq/
+
+
