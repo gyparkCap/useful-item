@@ -153,8 +153,6 @@ WHERE pg_stat_activity.datname = 'flowerdb'
  docker run --rm -it --network="host" ffflorian/pgloader pgloader --debug  --with "prefetch rows = 500"  pgsql://flower_glue:I9jK1lM3nO5@prod-flower-fragrance.cluster-c0hrasxydgoa.ap-northeast-2.rds.amazonaws.com:5432/flowerdb pgsql://anypoint:'*emflaj*'@dev-ff-pg.cluster-cbth1bnhfbdg.ap-northeast-2.rds.amazonaws.com:5432/uplus_test5
 
 
-원본 소재 문제 쿠님에게 전달 
-
 
 * https://mikefarah.gitbook.io/yq/usage/convert
 https://github.com/nvbn/thefuck
