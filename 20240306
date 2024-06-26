@@ -160,3 +160,6 @@ https://github.com/nvbn/thefuck
 * https://stedolan.github.io/jq/
 
 
+마지막 db에 적용하는 부분에는 특수 동작이 있으면 않됨 < 싹다 서비스 레이어로 올려서 해야함 > 간단crud 쿼리가 있다면 해당 쿼리 또는 jpa에는 특수값이 없어야 한다.
+ex: insert id: 1
+
