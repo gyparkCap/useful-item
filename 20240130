@@ -38,3 +38,4 @@ sam delete --stack-name {배포된 람다의 stack-name}
 
 kotest는 실제 db에 데이터 넣지 않음
 
+n8n 워크플로우 도구는 생각보다 더 강력하다(다른 여러 앱, 기능들을 엮어서 사용할 수 있음)
