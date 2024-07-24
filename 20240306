@@ -1,107 +1,12 @@
-https://jamong-icetea.tistory.com/212
-
-use 람다 함수(자원 다  사용하면 알아서 반환한다.)
-
-upsert라는 updtae + insert 구문 써 먹을 수 있다.
-
-입 출력 양식에 대해서 먼저 컴하자
-
-redis
-- fsn 제거와 위 내용 얶어서 이력서 사용하자
-
-코루틴
-- 
-트랜잭션
-
-
-AWS Glue와 Apache Druid를 결합하여 디바이스에서 발생하는 노출 로그를 실시간으로 수집, 변환, 저장 및 분석하는 환경을 구축할 수 있습니다.
-키네시스 > nifi > s3에 데이터 적제 후 druid에 저장 알아보기
-Athena로 s3 데이터 쿼리 가능
-n8n 설명(워크플로 자동화 도구, 여러 앱과 상호작용하며 flow를 만들 수 있음)
-Iterm2
-
-
-공부해야할거
-코루틴
-정규화
-쓰레드, 코루틴 생성이 어떻게 이루어지는지
-ifconfig | grep 192 < ip로 접근가능하다
-
-트랜잭션 코루틴 같이 쓰면 트랜잭션 분리되는 경우 존재하여 db에 커밋되지않고 그 이전 레이어에 저장되어 있어서 값을 가지고 오지 못하는 문제 존재
-코루틴 쓸거면 withContext로 같은 트랜잭션 위에서 쓰던가 아니면 필요한 모든 정보를 모아서 코루틴 코드에 던져야한다.
 
 형태소 분석기를 이용한 비슷한 유형 검색가능
 
 
-뽑는 사람
-이 놈이 우리팀 와서 잘할 수 있는가
-이해력 < 강조 가능
-기술력
 
-컨스턴트 타겟팅 하나만
-일감에 태그 추가
-
-
-심사
-영역
-영역을 만들 때 관계자(콘텐츠 소유자(퍼블리셔=채널사)
-위탁 고려 > 체인으로 타고 올라간다고 생각하면됨(회사1 > 회사2 > 회사3: 이러면 거꾸로 체인타면서 심사 타는거)
-상품(영역의 모음)
-해당 상품 영역 심사 체인 보면 된다 > 동시에 동작
-소재
-해당 영역에 나가도 되는지 심사(플랫폼사)
-캠페인
-계약 내용을 심사
-심사 체인
-위수탁 관계(회사1 > 회사2 > 회사3: 이러면 거꾸로 체인타면서 심사 타는거)
-근데 원스텝으로 끝나는거랑 체인 거는게 혼재되어있는 상태
-광고 변경
-소재 or 계약내용 변경
-콘텐츠
-
-
-영역
-공간+시간 둘다 있는거(어느 콘텐츠에 어느 시간대에 광고가 나갈 수 있다.)
-영역의 조직이 퍼블리셔이면 pp < 디지털 큐
-영역의 조직이 플랫폼이면 so(이거는 퍼블리셔에게 받은 영역을 쪼갠거) < 가상 큐
-인벤토리
-광고를 내볼낼 수 있는 숫자(전체 시간/광고시간(15초)) 광고 몇개를 내볼낼 수 있냐
-청약 사이트 > 배정 앱
-캠페인 정보를 배정앱이 먼저 가져간다.
-마스터트랙 생성: 오늘 집행할 것들 중에 우선순위(광고길이…)로 정렬(집행해야하는것들만 들어간다) 유료 > 무료 > 체움 > 엔딩
-배정 < 디바이스(세톰)
-배정 앱을 찔러서 마스터트랙에서 리스트를 가지고 온다.
-디바이스 > Asset_app
-소재 다운 요청하는 앱
-디바이스 > stats
-노출 데이터 전달
-프로그래매틱 공간을 따로 만들어둠 > graffta 찔러서 bidding 이긴게 있으면 해당 공간에 영상을 찔러줌
-
-
-
-KIBA
-3사 통합 청약 
-pp(채널사)영역 < 통신 3사 모든 셋탑에 나간다 < 셋탑에 종속적이지 않다 < kiba 사이트
-so(플랫폼사)영역 < 하나의 플랫폼에 종속되어 있다 < apm 사이트
-Kiba 사이트 청약 > 큐에 저장 > flower에 전송 > 셋탑에 송출
-flower이벤트 발생 > 큐에 저장 > kiba 사이트 업데이트
-PI 붙어 있는 class 들은 kiba 큐 보면서 컨슘하는 것들임 것들
-우리 사이트에 올 때 모든 정보는 - 붙어서 오고 해당 데이터 db에 저장
-Iptv 통합에 저장 
-Skb stage에서 확인
 
 
 \$\{([^}]+)\}
 
-
-
-액션 아이템 달기
-리뷰 열어넣고 시작하고 일하는 중인지 완료인지 표시하기
-Wip(working in process)
-매일 리뷰 본다
-하루에 30분은 코드 리뷰한다
-최종 승인 뚝딱님
-리뷰어는 뚝딱님만 넣기
 
 
 -- 테이블 구조 복사
@@ -112,30 +17,12 @@ Wip(working in process)
 
 
 
-pp영역은 퍼블리셔 영역
-기존 so 영역처럼 그냥 파악이 불가능하고 컨텐츠, 플랫폼, programId(의미없는 오직 컨텐츠의 pp영역을 구분하기 위해 존재하는 id)로 구분한다
-Kiba는 이런 pp영역 청약을 위해서 만들어진 사이트임
-pp영역은 퍼블리셔가 가지는 광고 영역 중 일부 때서 주는거기 때문에 광고 시간이 일정하지 않다
-
-
 pgloader를 이용한 로컬 db 마이그레이션
 docker run --rm -it --network="host" ffflorian/pgloader pgloader --debug --with "prefetch rows = 500" pgsql://anypoint:'*emflaj*'@prod-reds.cluster-cbth1bnhfbdg.ap-northeast-2.rds.amazonaws.com:5432/flowerdb pgsql://anypoint:'*emflaj*'@dev-ff-pg.cluster-cbth1bnhfbdg.ap-northeast-2.rds.amazonaws.com:5432/redsdb_20240425
 
-
-
-
-릴리즈 닫을 때는 해당 브랜치 tag 푸시 후 develop, master에 머지 후  해당 브랜치 날리면 된다.
-
-
-
 docker run --rm -it --network="host" ffflorian/pgloader pgloader --debug --with "prefetch rows = 500" pgsql://anypoint:'*emflaj*'@dev-ff-pg.cluster-cbth1bnhfbdg.ap-northeast-2.rds.amazonaws.com:5432/dev pgsql://flower:ffdb@localhost:15432/flowerdb
 
-
 docker run --rm -it --network="host" ffflorian/pgloader pgloader --debug --with "prefetch rows = 500" pgsql://flower_glue:I9jK1lM3nO5@prod-flower-fragrance.cluster-c0hrasxydgoa.ap-northeast-2.rds.amazonaws.com:5432/flowerdb pgsql://anypoint:'*emflaj*'@dev-ff-pg.cluster-cbth1bnhfbdg.ap-northeast-2.rds.amazonaws.com:5432/uplus_test6
-
-
-
-
 
 docker run --rm -it --network="host" ffflorian/pgloader pgloader --debug --with "prefetch rows = 500" pgsql://anypoint:'*emflaj*'@dev-ff-pg.cluster-cbth1bnhfbdg.ap-northeast-2.rds.amazonaws.com:5432/base_dev pgsql://flower:'ffdb'@localhost:5432/flowerdb
 
