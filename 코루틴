@@ -20,3 +20,8 @@ Dispatchers.Main: Android 및 UI 기반 애플리케이션에서 UI 업데이트
 Dispatchers.Unconfined: 현재 스레드에서 시작되고, 필요에 따라 다른 스레드로 이동하여 실행되는 디스패처입니다.
 
 현재 실행 중인 쓰레드 확인가능 인텔리 제에:  DEBUG 230671 --- [ parallel-2 ]
+
+
+에러 레밸은 try-catch 또는 코루틴에 먹힐 수 있다 < try-catch는 필요한 최소 범위에 걸어서 확실하게 에러를 먹어야 한다
+
+
