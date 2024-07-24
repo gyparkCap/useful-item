@@ -1,21 +1,4 @@
-코드 작성법
-1. 최종 목표 정하기
-1. 작은 목표 정하기(최종 목표를 이루기 위한 스텝 생각)
-1. 설계
-1. 조건 최소환으로 생각하면서 빠르게 개발
-1. 리펙(반복되는 부분 함수로 빼기)
-1. 테스트 코드 작성
 
-n8n 워크플로 자동화 도구 < 일의 흐름을 자동화해주는 도구 < 다른 앱들간의 연결을 통해 워크플로 구성 가능
-
-
-빌드
-sam build
-배포
-sam deploy --config-env {배포할 환경}
-지우기
-sam delete --stack-name {배포된 람다의 stack-name}
-      Role: arn:aws:iam::570989223497:role/aws-monitor-lambda-role #TODO: 환경별로 role 받도록 변경 < 특정 유저 권한 타고 가기
 
 @Transactional
 @SpringBootTest를 같이 쓰면 테스트 완료 후 해당 쿼리는 롤백된다(자세한 이유는 나중에 살펴보자)
