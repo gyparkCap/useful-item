@@ -11,7 +11,7 @@
 
 
 suspend로 코루틴이 사용될 수 있는 함수 정의(멀티 쓰레딩)
-withContext와 같이 Dispatchers 지정을 통해 코루틴이 실행될 쓰레드를 선택
+withContext와 같이 Dispatchers 지정을 통해 코루틴이 실행될 쓰레드를 선택(해당 쓰레드에서 코루틴이 비동기 동작함)
 Dispatchers.Default: CPU 바운드 작업을 위한 기본 스레드 풀입니다.
 Dispatchers.IO: I/O 바운드 작업을 처리하기 위한 스레드 풀입니다.
 Dispatchers.Main: Android 및 UI 기반 애플리케이션에서 UI 업데이트를 위한 메인(UI) 스레드입니다.
