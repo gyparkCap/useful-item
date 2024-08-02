@@ -1,5 +1,1 @@
-카프카 vs rabbimq
-
-https://aws.amazon.com/ko/compare/the-difference-between-rabbitmq-and-kafka/
-
-rabbitmq는 사용자가 데이터를 컨슘하면 큐에서 데이터를 제거하고, 카프카는 커밋하는 방식으로 표현
+비동기 js 동작 설명: https://velog.io/@onedanbee/%EB%B9%84%EB%8F%99%EA%B8%B0-Task-Queue-Macrotask-Queue-%EC%99%80-Microtask-Queue-%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C
