@@ -7,3 +7,4 @@ sort(key=cmp_to_key(custom_compare))
 양수: 첫 번째 인자가 두 번째 인자보다 큼
 
 https://velog.io/@leehyuna/%EC%BD%94%ED%85%8C%EC%97%90-%ED%95%84%EC%9A%94%ED%95%9C-Python-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%EC%A0%95%EB%A6%AC
+https://uni2237.tistory.com/56
