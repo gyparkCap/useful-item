@@ -1,3 +1,8 @@
+gitlab-rails console -e production < 이걸로 gitlab 사용자 정보, 권한 마음대로 조작 가능
+gitea vs gitlab
+gitea: 가볍지만 추가 기능은 다른거 붙여써야함
+gitlab: 여러 부가 기능이 기본적으로 제공되지만 무거움
+
 
 형태소 분석기를 이용한 비슷한 유형 검색가능
 
