@@ -18,3 +18,9 @@ https://da2uns2.tistory.com/entry/Python-%EC%BD%94%EB%94%A9%ED%85%8C%EC%8A%A4%ED
 
 - 문자열 + 변수 혼합 출력
 print(f"{a} + {b} = {a+b}")
+
+- split()
+빈칸 또는, 인자단위로 조개짐
+
+- 문자열 한 문자씩 쪼개기
+list(문자열)
