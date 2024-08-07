@@ -30,3 +30,6 @@ text[:index]
 
 -list string으로 변환
 합칠때 중간에 들어가는 문자.join(리스트)
+
+-list 초기값 설정
+nums = [초기값]*반복숫자
