@@ -12,3 +12,5 @@ https://da2uns2.tistory.com/entry/Python-%EC%BD%94%EB%94%A9%ED%85%8C%EC%8A%A4%ED
 
 - 대소문자 변경
 .swapcase()
+- 이스케이프 문자처럼 특수 문자 처리(\, ', ")
+\특수문자
