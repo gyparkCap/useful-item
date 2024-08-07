@@ -30,6 +30,7 @@ text[:index]
 
 -list string으로 변환
 합칠때 중간에 들어가는 문자.join(리스트)
+해당 리스트는 문자 또는 문자열로 이루어져야 한다.
 
 -list 초기값 설정
 nums = [초기값]*반복숫자
@@ -39,5 +40,4 @@ for i in range(0, 7)
 for i in list
 for i in range(0, 9, +1)
 
--숫자 문자형으로 변경
-str()
+
