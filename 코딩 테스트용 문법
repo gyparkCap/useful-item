@@ -38,3 +38,6 @@ nums = [초기값]*반복숫자
 for i in range(0, 7)
 for i in list
 for i in range(0, 9, +1)
+
+-숫자 문자형으로 변경
+str()
