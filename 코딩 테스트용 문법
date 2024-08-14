@@ -37,6 +37,9 @@ nums = [초기값]*반복숫자
 
 -파이썬 for 문
 for i in range(0, 7)
+
+-특정 문자 문자열 위치 찾기
+str.find('char')
 for i in list
 for i in range(0, 9, +1)
 
