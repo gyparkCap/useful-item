@@ -43,4 +43,8 @@ str.find('char')
 for i in list
 for i in range(0, 9, +1)
 
+-큐 구현
+deque()
+.append()
+.popleft()
 
