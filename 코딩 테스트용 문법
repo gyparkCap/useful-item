@@ -49,6 +49,9 @@ deque()
 .popleft()
 
 -시간 관련 연산
-datetime
+from datetime import *
+time_obj = datetime.strptime(time_str, "%Y-%m-%d %H:%M") < 해당 내용으로 string형태를 date 형태로 바꿔서 쓸수 있음
+time_obj.strftime("%Y-%m-%d %H:%M") < 해당 내용으로 date형을 string형으로 바꿀 수 있음
+timedelta(hours=2) < 시간 임의 지정해서 빼기 더하기 연산 가능
 
 - 쿼리 최소 최대 평균 
