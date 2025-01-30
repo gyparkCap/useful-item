@@ -1,1 +1,0 @@
-https://evan-moon.github.io/2020/05/21/about-cors/
