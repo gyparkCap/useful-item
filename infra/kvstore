@@ -1,0 +1,4 @@
+key value store의 의미
+- 클러스터 구성 시 각 인스턴스 끼리 데이터를 주고받을 경로가 필요하다. 이게 kvstore임
+종류
+- Consul, Etcd, ZooKeeper
